@@ -14,4 +14,4 @@ Understand which product categories drive revenue and how sales change over time
 - Jupyter Notebook
 
 ## Contact
-[LinkdIn](www.linkedin.com/in/susangurung10)
+[LinkdIn](https://www.linkedin.com/in/susangurung10)
