@@ -12,3 +12,6 @@ Understand which product categories drive revenue and how sales change over time
 - Python(Pandas, Numpy)
 - Data Visualization(Matplotlib, Seaborn)
 - Jupyter Notebook
+
+## Contact
+[LinkdIn](www.linkedin.com/in/susangurung10)
