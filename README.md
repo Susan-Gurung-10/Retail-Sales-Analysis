@@ -1,44 +1,86 @@
 # Retail Sales Analysis
-Exploratory analysis of 1,000 retail transactions in Python (pandas + matplotlib): data validation, headline KPIs, revenue by product category and the monthly revenue trend.
 
-## Business Questions with Answers
+**An exploratory data analysis project using Python to uncover sales trends, product performance and business opportunities from 1,000 retail transactions.**
 
-**1. What is the total revenue?**
-Total revenue is **456,000** from 1,000 transactions, an average of 456.00 per transaction.
+## Project Overview
 
-**2. Which product category performs best?**
-**Electronics** leads with 156,905 (34.4% of revenue), but Clothing is almost level at 155,580 (34.1%). The gap is only 1,325, or 0.3% of total revenue, so the two are effectively tied.
+This project analyses 1,000 retail transactions to understand revenue performance, identify the best- and lowest-performing product categories, and explore monthly sales trends.
 
-**3. How do sales change month by month?**
-Monthly revenue moves between about 23,600 and 53,200 with no steady upward or downward trend. May 2023 is the peak (53,150 from 105 transactions), followed by October (46,580), December (44,690) and February (44,060). September is the lowest full month (23,620 from 65 transactions). January 2024 contains only one day of data, so it is excluded from this comparison.
+The analysis was performed using Python, Pandas and Matplotlib, with a focus on turning raw sales data into useful business insights.
 
-**4. Which product category has the lowest sales?**
-**Beauty**, with 143,515 (31.5% of revenue). That is 13,390 behind Electronics, or about 3% of total revenue, so the difference is small.
+## Key Performance Indicators (KPIs)
 
-**5. Which actions could improve business performance?**
-See Recommendations below.
+| **Metric** | **Result** |
+|---|---:|
+| Total Revenue | **456,000** |
+| Total Transactions | **1,000** |
+| Average Transaction Value | **456.00** |
+| Best-Performing Category | **Electronics** |
+| Lowest Revenue Category | **Beauty** |
 
-## Recommendations
+## Business Questions & Key Findings
 
-These are suggestions to test, not conclusions proven by the data.
+### 1. What is the total revenue?
 
-1. **Investigate the weakest months, especially September.** September had both fewer transactions (65 vs 105 in May) and a lower value per transaction (about 363 vs 506). Check what differed, such as promotions, stock levels or the calendar.
-2. **Learn from May.** Identify what drove its volume and higher basket value, then test whether it can be repeated in slower months.
-3. **Test a Beauty promotion on a small scale.** Beauty trails by only about 3% of revenue, so a low-cost test such as bundling with other categories is more sensible than a large investment.
-4. **Collect richer data.** Product-level data, promotion dates, repeat-customer identifiers and multiple years would allow product-level, retention and seasonality questions to be answered.
-5. **Analyse customer segments.** Age and gender are in the dataset but not yet analysed. Revenue by segment could guide targeting.
+Total revenue reached **456,000** across 1,000 transactions, with an average transaction value of **456.00**.
+
+### 2. Which product category performs best?
+
+Electronics generated the highest revenue at **156,905 (34.4%)**, closely followed by Clothing at **155,580 (34.1%)**.
+
+The difference is only 1,325, meaning both categories contribute almost equally to revenue.
+
+### 3. How do sales change month by month?
+
+- **Highest revenue:** May 2023 – 53,150
+- **Second highest:** October 2023 – 46,580
+- **Lowest full month:** September 2023 – 23,620
+
+Monthly revenue fluctuates, with no consistent upward or downward trend. January 2024 was excluded because it contains only one day of data.
+
+### 4. Which product category has the lowest sales?
+
+Beauty generated the lowest revenue at **143,515 (31.5%)**. However, the difference between categories is relatively small.
+
+## Business Recommendations
+
+1. **Maintain top-performing categories:** Ensure sufficient stock of Electronics and Clothing.
+2. **Improve Beauty sales:** Experiment with discounts, bundles and targeted promotions.
+3. **Investigate monthly fluctuations:** Identify factors behind lower-revenue months.
+4. **Increase transaction value:** Introduce cross-selling and product bundles.
+5. **Use customer insights:** Develop targeted marketing based on purchasing behaviour.
+
+## Tools & Technologies
+
+- Python
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+- Exploratory Data Analysis (EDA)
+
+## Project Structure
+
+```text
+Retail-Sales-Analysis/
+│
+├── images/
+│   ├── category_revenue.png
+│   └── monthly_revenue.png
+│
+├── retail_sales_analysis.ipynb
+├── retail_sales_dataset.csv
+└── README.md
+```
+
+## 🎯 Conclusion
+
+This project demonstrates how Python-based data analysis can help businesses understand revenue performance, identify sales trends and make data-driven decisions.
 
 ## Dataset
 
 [Download Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
 
-**Dataset file:** `retail_sales_dataset.csv`
-
-## Tools Used
-- Python(Pandas, Numpy)
-- Data Visualization(Matplotlib, Seaborn)
-- Jupyter Notebook
-
 ## Contact
+
 [LinkdIn](https://www.linkedin.com/in/susangurung10)
 
