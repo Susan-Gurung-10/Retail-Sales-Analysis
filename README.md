@@ -29,7 +29,10 @@ These are suggestions to test, not conclusions proven by the data.
 5. **Analyse customer segments.** Age and gender are in the dataset but not yet analysed. Revenue by segment could guide targeting.
 
 ## Dataset
-[Dataset]"C:\Users\user\anaconda3\data_collection\retail_sales_dataset.csv"
+
+[Download Retail Sales Dataset](https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset)
+
+**Dataset file:** `retail_sales_dataset.csv`
 
 ## Tools Used
 - Python(Pandas, Numpy)
